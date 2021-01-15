@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Debtify</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div class="grid-container">
+    <div class="panel-sidebar">
+        <div class="panel-sidebar-top">
+            <div class="panel-sidebar-user">
+                <img src="./images/avatar.svg" class="panel-sidebar-user-avatar" alt="">
+                <span class="panel-sidebar-user-name">Anna May</span>
+                <span class="panel-sidebar-user-email">annm@debtify.com</span>
+            </div>
+            <ul class="panel-sidebar-elements">
+                <li>
+                    <a href="">
+                        <img src="images/dashboard.svg" alt="">
+                        Dashboard
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="images/profile.svg" alt="">
+                        Main Profil
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="active">
+                        <img src="images/manager.svg" alt="">
+                        Sicherheiten Manager
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="images/reporting.svg" alt="">
+                        Sicherheiten Reporting
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="images/marketplace.svg" alt="">
+                        Servicer Marktplatz
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="images/appStore.svg" alt="">
+                        App Store
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="images/feedback.svg" alt="">
+                        Feedback
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <button type="button" class="panel-sidebar-toggle">
+            <img src="images/toggle.svg" alt="">
+            toggle sidebar
+        </button>
+    </div>
+    <div class="panel-top-nav">
+        <input type="search" placeholder="Global search">
+        <div class="panel-top-nav-alert">
+            <img src="images/alert.svg" alt="">
+            <span class="new-alert"></span>
+        </div>
+    </div>
+    <div class="panel-content">
+        <div class="panel-content-top">
+            <h2 class="panel-content-title">Sicherheiten Manager</h2>
+            <div class="panel-content-detail">
+                <ul class="panel-content-breadcrumb">
+                    <li><a href="#">
+                        <img src="images/Vector.svg" alt="">
+                        Dashboard</a></li>
+                    <li><a href="#">Sicherheiten Manager</a></li>
+                    <li>Aktive Makleraufträge</li>
+                </ul>
+                <div class="panel-content-top-btns">
+                    <button type="button">Neue Bewertung
+                    </button>
+                    <button type="button">Neue Vermarktung
+                    </button>
+                </div>
+            </div>
+            <div class="panel-content-table-inputs">
+                <input type="search" class="panel-content-table-search" placeholder="Liste einschränken">
+                <div class="panel-content-table-filter">
+                    <label for="filter">Filtern nach Status</label>
+                    <select name="filter" id="filter">
+                        <option value="1">Alle</option>
+                        <option value="2">item 2</option>
+                    </select>
+                </div>
+                <div class="panel-content-table-Objekte">
+                    <label for="Objekte">Objekte pro Seite</label>
+                    <select name="Objekte" id="Objekte">
+                        <option value="10">10</option>
+                        <option value="9">9</option>
+                    </select>
+                </div>
+            </div>
+            <table class="panel-content-table">
+                <thead>
+                <tr role="row">
+                    <th scope="col" aria-colindex="1" aria-sort="ascending"><span>Status</span></th>
+                    <th scope="col" aria-colindex="2" aria-sort="ascending" class="ascend"><span>Immobilie</span></th>
+                    <th scope="col" aria-colindex="3" aria-sort="ascending"><span>Makler</span></th>
+                    <th scope="col" aria-colindex="4" aria-sort="ascending"><span>Beauftragungsdatum</span></th>
+                    <th scope="col" aria-colindex="5"><span>Bewertungsdatum</span></th>
+                    <th scope="col" aria-colindex="6" aria-sort="ascending"><span>Aktenzeichen</span></th>
+                    <th scope="col" aria-colindex="7" aria-sort="ascending"><span>Kaufpreiseinwertung min</span></th>
+                    <th scope="col" aria-colindex="8" aria-sort="ascending"><span>Kaufpreiseinwertung max</span></th>
+                    <th scope="col" aria-colindex="9" aria-sort="ascending"><span>Zielpreis</span></th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr role="row">
+                    <td>
+                        <div><span> Warte auf Maklerrückmeldung</span></div>
+                    </td>
+                    <td>
+                        <div><span> Haus</span></div>
+                    </td>
+                    <td>
+                        <div><span> John Doe</span></div>
+                    </td>
+                    <td>
+                        <div><span> 23.12.21</span></div>
+                    </td>
+                    <td>
+                        <div><span> 23.12.21</span></div>
+                    </td>
+                    <td>
+                        <div><span> 434343434</span></div>
+                    </td>
+                    <td>
+                        <div><span> 15.000</span></div>
+                    </td>
+                    <td>
+                        <div><span> 20.000</span></div>
+                    </td>
+                    <td>
+                        <div><span> 17.000</span></div>
+                    </td>
+                </tr>
+                <tr role="row">
+                    <td>
+                        <div><span> Warte auf Maklerrückmeldung</span></div>
+                    </td>
+                    <td>
+                        <div><span> Haus</span></div>
+                    </td>
+                    <td>
+                        <div><span> John Doe</span></div>
+                    </td>
+                    <td>
+                        <div><span> 23.12.21</span></div>
+                    </td>
+                    <td>
+                        <div><span> 23.12.21</span></div>
+                    </td>
+                    <td>
+                        <div><span> 434343434</span></div>
+                    </td>
+                    <td>
+                        <div><span> 15.000</span></div>
+                    </td>
+                    <td>
+                        <div><span> 20.000</span></div>
+                    </td>
+                    <td>
+                        <div><span> 17.000</span></div>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="panel-content-table-pagination">
+            <div class="pagination">
+                <a href="#">
+                    <img src="images/doubleArrow.svg" alt="">
+                </a>
+                <a href="#"><img class="flip" src="images/breadcrumbArrow.svg" alt=""></a>
+                <a href="#" class="active">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#"><img src="images/breadcrumbArrow.svg" alt=""></a>
+                <a href="#">
+                    <img class="flip" src="images/doubleArrow.svg" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
